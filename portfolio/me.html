@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Portfolio</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fbc1cc);
+            background-size: 200% 200%;
+            animation: gradientAnimation 10s ease infinite;
+            color: #333;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            transform: scale(1.1);
+            background-color: white;
+            color: #333;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: white;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            color: white;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 10px;
+            padding: 1rem;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <link href="portfolio\design.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        arjun 
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p class="content">Hi, I'm [Your Name], I am a passionate and detail-oriented designer with expertise in CAD/CAE modeling, drafting, and simulation. With hands-on experience in advanced tools like SolidWorks, HyperMesh, and ANSYS, I specialize in creating innovative solutions for complex engineering challenges. My recent internship at an aerospace company allowed me to work on cutting-edge projects, refine my technical skills, and gain valuable insights into the industry.</p>
+    </section>
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>created Designed and modeled [GEAR,TEST STAND,BEARINGS.] in SolidWorks to address  The design demonstrates proficiency in parametric modeling and drafting techniques.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Pre-processing CAE (Computer-Aided Engineering) software like HyperMesh is used to prepare models for simulation and analysis. These tools help engineers create meshes, define material properties, and set boundary conditions for finite element analysis (FEA) or computational fluid dynamics (CFD). Here are some popular alternatives to HyperMesh.</p>
+            </div>
+        </div>
+        <section id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Created and designed [GEAR, TEST STAND, BEARINGS] in SolidWorks to address design challenges. Demonstrates proficiency in parametric modeling and drafting techniques.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Pre-processing CAE (Computer-Aided Engineering) software like HyperMesh is used to prepare models for simulation and analysis. These tools help engineers create meshes, define material properties, and set boundary conditions for finite element analysis (FEA) or computational fluid dynamics (CFD).</p>
+                </div>
+            </div>
+        
+            <!-- Adding images section -->
+            <div class="project-images">
+                <h3 class="section-title">Gallery</h3>
+                <div class="image-gallery">
+                    <img src="C:\Users\pavan\Desktop\web design\calculator\portfolio\BALLBEARING.jpeg" alt="BALLBEARING" class="gallery-image">
+                    <img src="C:\Users\pavan\Desktop\web design\calculator\portfolio\GEAR.jpeg"alt="GEAR" class="gallery-image">
+                    <img src="C:\Users\pavan\Desktop\web design\calculator\portfolio\CAE PRE PRO.jpeg" alt="Pre-processing" class="gallery-image">
+                    <img src="CC:\Users\pavan\Desktop\web design\calculator\portfolio\catia.png" alt="catia" class="gallery-image">
+                </div>
+            </div>
+        </section>
+        
+    </section>
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="content">Email: garjun2232@gmail.com | Phone: 1234.....n</p>
+    </section>
+    <footer>
+        &copy; 2025 <h1 style="font-family:verdana;">Arjun</h1>
+    </footer>
+</body>
+</html>
+
